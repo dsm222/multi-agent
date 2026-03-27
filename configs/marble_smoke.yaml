@@ -1,0 +1,33 @@
+llm: "openai/qwen3.5-35b-a3b"
+
+metrics:
+  evaluate_llm:
+    provider: "openai"
+    model: "openai/qwen3.5-35b-a3b"
+
+coordinate_mode: star
+relationships: []
+
+environment:
+  type: Base
+  name: "Discussion Simulation Environment"
+  max_iterations: 1
+
+task:
+  content: "Briefly discuss one practical impact of AI in healthcare."
+
+agents:
+  - type: BaseAgent
+    agent_id: agent1
+    strategy: default
+    profile: "You are a practical AI analyst."
+
+memory:
+  type: SharedMemory
+
+engine_planner:
+  initial_progress: "Starting smoke test."
+
+output:
+  file_path: "C:/Users/dsm/Desktop/lunwen/mas_react_thesis/runs/marble_smoke_output_qwen.jsonl"
+

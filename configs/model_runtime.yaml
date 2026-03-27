@@ -1,0 +1,7 @@
+provider: openai-compatible
+base_url: https://api.linkapi.ai/v1
+model: qwen3.5-35b-a3b
+api_key_env: OPENAI_API_KEY
+base_url_env:
+  - OPENAI_API_BASE
+  - OPENAI_BASE_URL
