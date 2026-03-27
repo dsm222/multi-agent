@@ -1,0 +1,3 @@
+[submodule "third_party/MARBLE"]
+	path = third_party/MARBLE
+	url = https://github.com/ulab-uiuc/MARBLE.git
