@@ -19,6 +19,7 @@
 - [x] 阶段1：独立环境与最小闭环（LangGraph + LinkAPI + MARBLE smoke）
 - [x] 阶段2：仓库初始化与目录骨架
 - [x] 阶段3：统一状态/黑板/轨迹 schema（`core/state.py`、`core/blackboard.py`、`core/trace.py`）
+- [x] 阶段4：single-agent baseline（`graphs/baseline_single.py` + 20样本运行日志）
 
 ## 关键路径
 - 主环境：`conda env: mas-react (Python 3.10)`

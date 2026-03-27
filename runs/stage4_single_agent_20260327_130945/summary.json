@@ -1,0 +1,14 @@
+{
+  "run_dir": "C:\\Users\\dsm\\Desktop\\lunwen\\mas_react_thesis\\runs\\stage4_single_agent_20260327_130945",
+  "results_path": "C:\\Users\\dsm\\Desktop\\lunwen\\mas_react_thesis\\runs\\stage4_single_agent_20260327_130945\\results.jsonl",
+  "task_count": 20,
+  "ok_count": 20,
+  "success_rate": 1.0,
+  "used_tool_count": 10,
+  "total_tokens": 46822,
+  "avg_tokens_per_task": 2341.1,
+  "total_wall_ms": 993664,
+  "avg_wall_ms_per_task": 49683.2,
+  "model": "qwen3.5-35b-a3b",
+  "base_url": "https://api.linkapi.ai/v1"
+}
